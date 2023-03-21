@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>Página web de gatos</title>
+        <link href="style.css" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <!--Las siguientes etiquetas son para encabezados-->
+        <h1>Página de mascotas</h1>
+        <h2>Esta es una página de gatitos</h2>
+        <h3>Hecha por Marlene JB</h3>
+        
+        <!--Agregar imagen desde internet-->
+        <img src="https://th.bing.com/th/id/R.680d2c02f7b1b0de2c4e7d446cbb08de?rik=jgF%2fr3cCIXKqUQ&riu=http%3a%2f%2fwww.mundogatos.com%2fUploads%2fmundogatos.com%2fImagenesGrandes%2ffotos-de-gatitos-3-0.jpg&ehk=XnNHm%2bloY5Oez0Sc4%2b02D2hmrBtPxFX2DorB3nqRW%2bs%3d&risl=&pid=ImgRaw&r=0">
+        <br>
+        
+        <img src="https://th.bing.com/th/id/R.572750fd271e5fc3934680d7cc2e1417?rik=CDwPkuroS2JNMQ&riu=http%3a%2f%2f3.bp.blogspot.com%2f-TmfhUQkgrzs%2fTVmWwC4cd3I%2fAAAAAAAAABY%2f-28Zi889au4%2fs1600%2fgatitos.jpg&ehk=d%2fVETyeU7KCjtosRxMXjXXH3qBXO%2fLXAoXlhqdSsZtI%3d&risl=&pid=ImgRaw&r=0">
+
+        <!--Listas ordenadas y desordenadas-->
+        <h3>Lista de gatitos</h3>
+        <p>Tres cosas que los gatos <strong>aman</strong></p>
+
+        <!--Lista ordenada (Ordered List)-->
+        <ol>
+            <li>Comer</li>
+            <li>Dormir</li>
+            <li>Jugar</li>
+        </ol>
+
+        <!--Lista desordenada-->
+        <p>Tres cosas que los gatos <strong>odian</strong></p>
+        <ul>
+            <li>Bañarse</li>
+            <li>Inyecciones</li>
+            <li>Medicina</li>
+        </ul>
+
+        <!--Crear enlaces externos-->
+        <p>Si quieres ver más fotos de gatitos da <a href="https://www.bing.com/images/search?q=imagenes+de+gatitos&go=Buscar&qs=ds&form=QBIDMH&first=1" target="_blank">click aqui</a></p>
+
+        <!--Formularios-->
+        <form>
+            <p>¿Tu gatito es cachorro o adulto?</p>
+            <label>
+                <input id="cachorro" type="radio" value="cachorro" name="cachorro-adulto" checked> cachorro
+            </label>
+            <br>
+            <label>
+                <input id="adulto" type="radio" value="adulto" name="cachorro-adulto"> adulto
+            </label>
+
+            <!--Formulario con casillas de verificación-->
+            <p>¿Cómo es el caracter de tu gato?</p>
+            <label>
+                <input id="perezoso" type="checkbox" value="perezoso" name="personalidad" checked> Perezoso
+            </label>
+            <br>
+            <label>
+                <input id="energico" type="checkbox" value="energico" name="personalidad" checked> energico
+            </label>
+            <br>
+            <label>
+                <input id="jugeton" type="checkbox" value="jugeton" name="personalidad" checked> jugeton
+            </label>
+
+        </form>
+
+        <footer>
+            <small><p>Esta página fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank">tecnolochicas PRO</a></p></small>
+        </footer>
+
+    </body>
+
+</html>
